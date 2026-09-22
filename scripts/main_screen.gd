@@ -18,5 +18,5 @@ func _on_button_pressed() -> void:
 	tween.tween_property(fade, "modulate:a", 1.0, 1)
 	
 	await tween.finished
-	get_tree().change_scene_to_file("res://main.tscn")
+	get_tree().change_scene_to_file("res://scenes/main.tscn")
 	

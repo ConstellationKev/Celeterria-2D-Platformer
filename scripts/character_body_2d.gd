@@ -12,7 +12,7 @@ var can_move = true
 func respawn():
 	#self.visible = false
 	await get_tree().create_timer(0.5).timeout
-	get_tree().change_scene_to_file("res://game_over.tscn")
+	get_tree().change_scene_to_file("res://scenes/game_over.tscn")
 	self.global_position = Vector2(0,0)
 	#animated_spirte.play("idle")
 	#await get_tree().create_timer(0.5).timeout
@@ -40,7 +40,7 @@ func _physics_process(delta: float) -> void:
 					respawn()
 			if collision.get_collider().name == "TileMapWin":
 				await get_tree().create_timer(0.2).timeout
-				get_tree().change_scene_to_file("res://win.tscn")
+				get_tree().change_scene_to_file("res://scenes/win.tscn")
 				self.global_position = Vector2(0,0)
 		# Get the input direction and handle the movement/deceleration.
 		# As good practice, you should replace UI actions with custom gameplay actions.

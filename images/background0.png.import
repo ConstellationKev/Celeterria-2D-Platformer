@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://caevqdm62p7gt"
-path="res://.godot/imported/8bit-pixel-graphic-blue-sky-background-with-clouds-vector.jpg-9aa8be8b3c424b99c41f797a2c618a65.ctex"
+uid="uid://c82t2vebyu1cu"
+path="res://.godot/imported/background0.png-994f740505cba859982e7712d0cabe51.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://8bit-pixel-graphic-blue-sky-background-with-clouds-vector.jpg"
-dest_files=["res://.godot/imported/8bit-pixel-graphic-blue-sky-background-with-clouds-vector.jpg-9aa8be8b3c424b99c41f797a2c618a65.ctex"]
+source_file="res://images/background0.png"
+dest_files=["res://.godot/imported/background0.png-994f740505cba859982e7712d0cabe51.ctex"]
 
 [params]
 

@@ -13,7 +13,7 @@ config_version=5
 config/name="real first game"
 run/main_scene="uid://d2cncxk3xyb1t"
 config/features=PackedStringArray("4.7", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://images/icon.svg"
 
 [display]
 
